@@ -40,7 +40,7 @@ export default function About() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="services.html">Body Building</a>
+                      <Link to="/blogs">Body Building</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to
@@ -60,7 +60,7 @@ export default function About() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="services.html">Muscle Gain</a>
+                      <Link to="/blogs">Muscle Gain</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to
@@ -80,7 +80,7 @@ export default function About() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="services.html">Weight Loss</a>
+                      <Link to="/blogs">Weight Loss</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to

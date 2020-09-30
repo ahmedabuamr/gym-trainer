@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Pricing() {
   return (
@@ -71,9 +72,9 @@ export default function Pricing() {
                       <p>Month to mouth</p>
                     </div>
                   </div>
-                  <a href="#" className="border-btn border-btn2">
+                  <Link to="/" className="border-btn border-btn2">
                     Join Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -133,9 +134,9 @@ export default function Pricing() {
                       <p>Month to mouth</p>
                     </div>
                   </div>
-                  <a href="#" className="border-btn border-btn2">
+                  <Link to="/" className="border-btn border-btn2">
                     Join Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -195,9 +196,9 @@ export default function Pricing() {
                       <p>Month to mouth</p>
                     </div>
                   </div>
-                  <a href="#" className="border-btn border-btn2">
+                  <Link to="/" className="border-btn border-btn2">
                     Join Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

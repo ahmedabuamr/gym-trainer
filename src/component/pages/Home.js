@@ -120,7 +120,7 @@ export default function Home() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="#">Body Building</a>
+                      <Link to="/">Body Building</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to
@@ -140,7 +140,7 @@ export default function Home() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="#">Muscle Gain</a>
+                      <Link to="/">Muscle Gain</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to
@@ -160,7 +160,7 @@ export default function Home() {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <a href="#">Weight Loss</a>
+                      <Link to="/">Weight Loss</Link>
                     </h5>
                     <p>
                       You’ll look at graphs and charts in Task One, how to

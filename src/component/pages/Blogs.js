@@ -34,10 +34,10 @@ export default function Blogs() {
                       src="assets/img/blog/single_blog_1.png"
                       alt=""
                     />
-                    <a href="#" className="blog_item_date">
+                    <Link to="/blogs" className="blog_item_date">
                       <h3>15</h3>
                       <p>Jan</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog_details">
                     <Link className="d-inline-block" to="/blogs">
@@ -52,14 +52,14 @@ export default function Blogs() {
                     </p>
                     <ul className="blog-info-link">
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-user"></i> Travel, Lifestyle
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-comments"></i> 03 Comments
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -71,47 +71,10 @@ export default function Blogs() {
                       src="assets/img/blog/single_blog_2.png"
                       alt=""
                     />
-                    <a href="#" className="blog_item_date">
+                    <Link to="/blogs" className="blog_item_date">
                       <h3>15</h3>
                       <p>Jan</p>
-                    </a>
-                  </div>
-                  <div className="blog_details">
-                    <a className="d-inline-block" href="blog_details.html">
-                      <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
-                        Google inks pact for new 35-storey office
-                      </h2>
-                    </a>
-                    <p>
-                      That dominion stars lights dominion divide years for
-                      fourth have don't stars is that he earth it first without
-                      heaven in place seed it second morning saying.
-                    </p>
-                    <ul className="blog-info-link">
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-user"></i> Travel, Lifestyle
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-comments"></i> 03 Comments
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                <article className="blog_item">
-                  <div className="blog_item_img">
-                    <img
-                      className="card-img rounded-0"
-                      src="assets/img/blog/single_blog_3.png"
-                      alt=""
-                    />
-                    <a href="#" className="blog_item_date">
-                      <h3>15</h3>
-                      <p>Jan</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog_details">
                     <Link className="d-inline-block" to="/blogs">
@@ -126,14 +89,51 @@ export default function Blogs() {
                     </p>
                     <ul className="blog-info-link">
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-user"></i> Travel, Lifestyle
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-comments"></i> 03 Comments
-                        </a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <article className="blog_item">
+                  <div className="blog_item_img">
+                    <img
+                      className="card-img rounded-0"
+                      src="assets/img/blog/single_blog_3.png"
+                      alt=""
+                    />
+                    <Link to="/blogs" className="blog_item_date">
+                      <h3>15</h3>
+                      <p>Jan</p>
+                    </Link>
+                  </div>
+                  <div className="blog_details">
+                    <Link className="d-inline-block" to="/blogs">
+                      <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
+                        Google inks pact for new 35-storey office
+                      </h2>
+                    </Link>
+                    <p>
+                      That dominion stars lights dominion divide years for
+                      fourth have don't stars is that he earth it first without
+                      heaven in place seed it second morning saying.
+                    </p>
+                    <ul className="blog-info-link">
+                      <li>
+                        <Link to="/blogs">
+                          <i className="fa fa-user"></i> Travel, Lifestyle
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/blogs">
+                          <i className="fa fa-comments"></i> 03 Comments
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -145,17 +145,17 @@ export default function Blogs() {
                       src="assets/img/blog/single_blog_4.png"
                       alt=""
                     />
-                    <a href="#" className="blog_item_date">
+                    <Link to="/blogs" className="blog_item_date">
                       <h3>15</h3>
                       <p>Jan</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog_details">
-                    <a className="d-inline-block" href="blog_details.html">
+                    <Link className="d-inline-block" to="/blogs">
                       <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
                         Google inks pact for new 35-storey office
                       </h2>
-                    </a>
+                    </Link>
                     <p>
                       That dominion stars lights dominion divide years for
                       fourth have don't stars is that he earth it first without
@@ -163,14 +163,14 @@ export default function Blogs() {
                     </p>
                     <ul className="blog-info-link">
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-user"></i> Travel, Lifestyle
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-comments"></i> 03 Comments
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -182,17 +182,17 @@ export default function Blogs() {
                       src="assets/img/blog/single_blog_5.png"
                       alt=""
                     />
-                    <a href="#" className="blog_item_date">
+                    <Link to="/blogs" className="blog_item_date">
                       <h3>15</h3>
                       <p>Jan</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog_details">
-                    <a className="d-inline-block" href="blog_details.html">
+                    <Link className="d-inline-block" to="/blogs">
                       <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
                         Google inks pact for new 35-storey office
                       </h2>
-                    </a>
+                    </Link>
                     <p>
                       That dominion stars lights dominion divide years for
                       fourth have don't stars is that he earth it first without
@@ -200,14 +200,14 @@ export default function Blogs() {
                     </p>
                     <ul className="blog-info-link">
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-user"></i> Travel, Lifestyle
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="/blogs">
                           <i className="fa fa-comments"></i> 03 Comments
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -215,24 +215,28 @@ export default function Blogs() {
                 <nav className="blog-pagination justify-content-center d-flex">
                   <ul className="pagination">
                     <li className="page-item">
-                      <a href="#" className="page-link" aria-label="Previous">
+                      <Link
+                        to="/blogs"
+                        className="page-link"
+                        aria-label="Previous"
+                      >
                         <i className="ti-angle-left"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a href="#" className="page-link">
+                      <Link to="/blogs" className="page-link">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item active">
-                      <a href="#" className="page-link">
+                      <Link to="/blogs" className="page-link">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a href="#" className="page-link" aria-label="Next">
+                      <Link to="/blogs" className="page-link" aria-label="Next">
                         <i className="ti-angle-right"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -272,40 +276,40 @@ export default function Blogs() {
                   </h4>
                   <ul className="list cat-list">
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Resaurant food</p>
                         <p>(37)</p>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Travel news</p>
                         <p>(10)</p>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Modern technology</p>
                         <p>(03)</p>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Product</p>
                         <p>(11)</p>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Inspiration</p>
                         <p>21</p>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="d-flex">
+                      <Link to="/blogs" className="d-flex">
                         <p>Health Care (21)</p>
                         <p>09</p>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </aside>
@@ -316,42 +320,42 @@ export default function Blogs() {
                   <div className="media post_item">
                     <img src="assets/img/post/post_1.png" alt="post" />
                     <div className="media-body">
-                      <a href="blog_details.html">
+                      <Link to="/blogs">
                         <h3 style={{ color: "#2d2d2d" }}>
                           From life was you fish...
                         </h3>
-                      </a>
+                      </Link>
                       <p>January 12, 2019</p>
                     </div>
                   </div>
                   <div className="media post_item">
                     <img src="assets/img/post/post_2.png" alt="post" />
                     <div className="media-body">
-                      <a href="blog_details.html">
+                      <Link to="/blogs">
                         <h3 style={{ color: "#2d2d2d" }}>The Amazing Hubble</h3>
-                      </a>
+                      </Link>
                       <p>02 Hours ago</p>
                     </div>
                   </div>
                   <div className="media post_item">
                     <img src="assets/img/post/post_3.png" alt="post" />
                     <div className="media-body">
-                      <a href="blog_details.html">
+                      <Link to="/blogs">
                         <h3 style={{ color: "#2d2d2d" }}>
                           Astronomy Or Astrology
                         </h3>
-                      </a>
+                      </Link>
                       <p>03 Hours ago</p>
                     </div>
                   </div>
                   <div className="media post_item">
                     <img src="assets/img/post/post_4.png" alt="post" />
                     <div className="media-body">
-                      <a href="blog_details.html">
+                      <Link to="/blogs">
                         <h3 style={{ color: "#2d2d2d" }}>
                           Asteroids telescope
                         </h3>
-                      </a>
+                      </Link>
                       <p>01 Hours ago</p>
                     </div>
                   </div>
@@ -362,28 +366,28 @@ export default function Blogs() {
                   </h4>
                   <ul className="list">
                     <li>
-                      <a href="#">project</a>
+                      <Link to="/blogs">project</Link>
                     </li>
                     <li>
-                      <a href="#">love</a>
+                      <Link to="/blogs">love</Link>
                     </li>
                     <li>
-                      <a href="#">technology</a>
+                      <Link to="/blogs">technology</Link>
                     </li>
                     <li>
-                      <a href="#">travel</a>
+                      <Link to="/blogs">travel</Link>
                     </li>
                     <li>
-                      <a href="#">restaurant</a>
+                      <Link to="/blogs">restaurant</Link>
                     </li>
                     <li>
-                      <a href="#">life style</a>
+                      <Link to="/blogs">life style</Link>
                     </li>
                     <li>
-                      <a href="#">design</a>
+                      <Link to="/blogs">design</Link>
                     </li>
                     <li>
-                      <a href="#">illustration</a>
+                      <Link to="/blogs">illustration</Link>
                     </li>
                   </ul>
                 </aside>
@@ -394,58 +398,58 @@ export default function Blogs() {
                   </h4>
                   <ul className="instagram_row flex-wrap">
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_5.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_6.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_7.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_8.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_9.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/blogs">
                         <img
                           className="img-fluid"
                           src="assets/img/post/post_10.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </aside>
