@@ -66,18 +66,21 @@ export default function Footer() {
                       data-wow-delay=".8s"
                     >
                       <a
+                        rel="refer"
                         target="_blank"
                         href="https://twitter.com/Ahmed_Amr_21"
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
                       <a
+                        rel="refer"
                         target="_blank"
                         href="https://www.facebook.com/selmyasdf"
                       >
                         <i className="fab fa-facebook-f"></i>
                       </a>
                       <a
+                        rel="refer"
                         target="_blank"
                         href="https://www.linkedin.com/in/ahmed-abu-amr-5252a3159/"
                       >

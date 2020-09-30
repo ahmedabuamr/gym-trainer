@@ -10,6 +10,7 @@ export default function Videos() {
         <div className="video-wrap position-relative">
           <div className="video-icon">
             <a
+              rel="refer"
               target="_blank"
               className="popup-video btn-icon"
               href="https://www.youtube.com/watch?v=wtFPIOV2bWM"
