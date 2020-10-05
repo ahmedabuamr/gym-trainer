@@ -1,7 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BackTop } from "antd";
 
 export default function Footer() {
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: "40px",
+    borderRadius: 4,
+    backgroundColor: "#ff1313",
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 14,
+    float: "right",
+    marginRight: "20px",
+    marginBottom: "30px",
+  };
   return (
     <div>
       <footer>
@@ -82,6 +96,9 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      <BackTop>
+        <div style={style}>UP</div>
+      </BackTop>
     </div>
   );
 }
